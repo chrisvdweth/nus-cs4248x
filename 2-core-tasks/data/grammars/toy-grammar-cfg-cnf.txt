@@ -1,0 +1,28 @@
+S -> NP VP
+S -> X1 VP
+X1 -> Aux NP
+S -> Verb NP
+S -> X2 PP
+S -> Verb PP
+S -> VP PP
+NP -> Det Nominal
+Nominal -> Nominal Noun
+Nominal -> Nominal PP
+VP -> Verb NP
+VP -> X2 PP
+X2 -> Verb NP
+VP -> Verb PP
+VP -> VP PP
+PP -> Prep NP
+Det -> 'the' | 'a' | 'that' | 'this'
+Noun -> 'book' | 'flight' | 'meal' | 'money'
+Verb -> 'book' | 'include' | 'prefer'
+Pronoun -> 'I' | 'she' | 'he' | 'me'
+PropNoun -> 'Singapore' | 'Frankfurt' | 'SIA'
+Aux -> 'do' | 'does' | 'did'
+Prep -> 'from' | 'to' | 'on' | 'near' | 'through'
+S -> 'book' | 'include' | 'prefer'
+VP -> 'book' | 'include' | 'prefer'
+NP -> 'I' | 'she' | 'he' | 'me'
+NP -> 'Singapore' | 'Frankfurt' | 'SIA'
+Nominal -> 'book' | 'flight' | 'meal' | 'money'

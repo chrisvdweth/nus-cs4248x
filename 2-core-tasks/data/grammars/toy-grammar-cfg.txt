@@ -1,0 +1,22 @@
+S -> NP VP
+S -> Aux NP VP
+S -> VP
+NP -> Pronoun
+NP -> ProperNoun
+NP -> Det Nominal
+Nominal -> Noun
+Nominal -> Nominal Noun
+Nominal -> Nominal PP
+VP -> Verb
+VP -> Verb NP
+VP -> Verb NP PP
+VP -> Verb PP
+VP -> VP PP
+PP -> Prep NP
+Det -> 'the' | 'a' | 'that' | 'this'
+Noun -> 'book' | 'flight' | 'meal' | 'money'
+Verb -> 'book' | 'include' | 'prefer'
+Pronoun -> 'I' | 'she' | 'he' | 'me'
+ProperNoun -> 'Singapore' | 'Frankfurt' | 'SIA'
+Aux -> 'do' | 'does' | 'did'
+Prep -> 'from' | 'to' | 'on' | 'near' | 'through'
